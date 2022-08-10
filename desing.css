@@ -1,0 +1,1205 @@
+
+
+body{
+  background-size : auto ;
+  background-attachment: fixed;
+  margin:0px;
+  position: relative;
+  min-height: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 70vw;
+  
+  }
+   
+  #header{
+    opacity: 0.3;
+    height:150px;
+    background-color:  rgb(254, 241, 241)
+   
+}
+
+
+
+/*page fusain*/
+
+
+  
+
+div.inspiration{
+  font-size: 4em;
+  border: 3px solid;
+  color: white;
+  background-color:  rgb(82, 79, 79);
+  padding:  0.8em 0.8em 0.6em;
+  font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 25%;
+  float:left;
+  position: relative;
+  top: -550px;
+  bottom: 50px;
+  left: 700px;
+  border-radius: 10px 10px 10px 10px; 
+  margin: 3%;  
+  padding: 3%;
+  }
+
+  * {box-sizing: border-box;}
+  .inspiration {
+    display: block;
+    position: relative;
+     width: 400px;
+    padding: 15px;
+    
+  }
+
+  .inspiration:before, .inspiration:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 8px #000000 solid;
+    transition: all .8s;
+  }
+
+  .inspiration:before {
+    top: -8px;
+    left: -8px;
+    border-width: 6px 0 0 6px;
+    border-radius: 10px 10px 10px 10px; 
+  }
+
+  .inspiration:after {
+    bottom: -8px;
+    right: -8px;
+    border-width: 0 6px 6px 0;
+    border-radius: 10px 10px 10px 10px; 
+  }
+
+  .inspiration:hover.inspiration:before, .inspiration:hover.inspiration:after {
+    width: calc( 100% + 8px );
+    height: calc( 100% + 8px );
+  }
+
+   
+
+  div.detail{
+    font-size: 4em;
+    background-color:  rgb(82, 79, 79);
+    font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 15%;
+    float:left;
+    position: relative;
+    top: -657px;
+    bottom: 50px;
+    left: 585px;
+    border-radius: 10px 10px 10px 10px; 
+    margin: 3%;  
+    padding: 3%;
+    border: 3px solid;
+      color: white;
+    }
+
+    * {box-sizing: border-box;}
+    .detail {
+      display: block;
+      position: relative;
+       width: 400px;
+      padding: 15px;
+      
+    }
+
+    .detail:before, .detail:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border: 8px #000000 solid;
+      transition: all .8s;
+    }
+
+    .detail:before {
+      top: -8px;
+      left: -8px;
+      border-width: 6px 0 0 6px;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail:after {
+      bottom: -8px;
+      right: -8px;
+      border-width: 0 6px 6px 0;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail:hover.detail:before, .detail:hover.detail:after {
+      width: calc( 100% + 8px );
+      height: calc( 100% + 8px );
+    }
+
+    div.explication{
+      font-size: 4em;
+      border: 3px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      padding:  0.8em 0.8em 0.6em;
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 30%;
+      float:left;
+      position: relative;
+      top: -350px;
+      bottom: 50px;
+      left: -320px;
+      border-radius: 10px 10px 10px 10px; 
+      margin: 3%;  
+      padding: 3%;
+      }
+
+      * {box-sizing: border-box;}
+      .explication {
+        display: block;
+        position: relative;
+         width: 400px;
+        padding: 15px;
+        
+      }
+  
+      .explication:before, .explication:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 8px #000000 solid;
+        transition: all .8s;
+      }
+  
+      .explication:before {
+        top: -8px;
+        left: -8px;
+        border-width: 6px 0 0 6px;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication:after {
+        bottom: -8px;
+        right: -8px;
+        border-width: 0 6px 6px 0;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication:hover.explication:before, .explication:hover.explication:after {
+        width: calc( 100% + 8px );
+        height: calc( 100% + 8px );
+      }
+  
+
+
+
+    h1{
+      font: 22px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-weight: bold;
+      top: 40px;
+      text-decoration: underline;
+    }
+
+    h2{
+      font: 22px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-weight: bold;
+      top: 40px;
+      text-decoration: underline;
+    }
+
+    h3{
+      font: 22px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-weight: bold;
+      top: 40px;
+      text-decoration: underline;
+    }
+
+
+    /*
+    div.inspiration{
+      font-size: 4em;
+      width: 100%;
+      border: 2px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      padding:  0.8em 0.8em 0.6em;
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 15%;
+      float:left;
+      position: relative;
+      top: 10px;
+      left: 700px;
+      border-radius: 10px 10px 10px 10px;   
+      */
+
+      /*page portrait*/
+
+      div.detail1{
+        font-size: 4em;
+        background-color:  rgb(82, 79, 79);
+        font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 15%;
+        float:left;
+        position: relative;
+        top: -657px;
+        bottom: 50px;
+        left: 585px;
+        border-radius: 10px 10px 10px 10px; 
+        margin: 3%;  
+        padding: 3%;
+        border: 3px solid;
+        color: rgb(255, 255, 255);
+        }
+    
+ * {box-sizing: border-box;}
+    .detail1 {
+      display: block;
+      position: relative;
+       width: 400px;
+      padding: 15px;
+      
+    }
+
+    .detail1:before, .detail1:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border: 8px #000000 solid;
+      transition: all .8s;
+    }
+
+    .detail1:before {
+      top: -8px;
+      left: -8px;
+      border-width: 6px 0 0 6px;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail1:after {
+      bottom: -8px;
+      right: -8px;
+      border-width: 0 6px 6px 0;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail1:hover.detail1:before, .detail1:hover.detail1:after {
+      width: calc( 100% + 8px );
+      height: calc( 100% + 8px );
+    }
+
+    div.inspiration1{
+      font-size: 4em;
+      border: 3px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      padding:  0.8em 0.8em 0.6em;
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 25%;
+      float:left;
+      position: relative;
+      top: -640px;
+      bottom: 50px;
+      left: 700px;
+      border-radius: 10px 10px 10px 10px; 
+      margin: 2%;  
+      padding: 2%;
+      }
+    
+      * {box-sizing: border-box;}
+      .inspiration1 {
+        display: block;
+        position: relative;
+         width: 400px;
+        padding: 15px;
+        
+      }
+    
+      .inspiration1:before, .inspiration1:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 8px #000000 solid;
+        transition: all .8s;
+      }
+    
+      .inspiration1:before {
+        top: -8px;
+        left: -8px;
+        border-width: 6px 0 0 6px;
+        border-radius: 10px 10px 10px 10px; 
+      }
+    
+      .inspiration1:after {
+        bottom: -8px;
+        right: -8px;
+        border-width: 0 6px 6px 0;
+        border-radius: 10px 10px 10px 10px; 
+      }
+    
+      .inspiration1:hover.inspiration1:before, .inspiration1:hover.inspiration1:after {
+        width: calc( 100% + 8px );
+        height: calc( 100% + 8px );
+      }
+
+
+
+    div.explication1{
+      font-size: 4em;
+      border: 3px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      padding:  0.8em 0.8em 0.6em;
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 30%;
+      float:left;
+      position: relative;
+      top: -350px;
+      bottom: 50px;
+      left: -320px;
+      border-radius: 10px 10px 10px 10px; 
+      margin: 3%;  
+      padding: 3%;
+      }
+
+      * {box-sizing: border-box;}
+      .explication1 {
+        display: block;
+        position: relative;
+         width: 400px;
+        padding: 15px;
+        
+      }
+  
+      .explication1:before, .explication1:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 8px #000000 solid;
+        transition: all .8s;
+      }
+  
+      .explication1:before {
+        top: -8px;
+        left: -8px;
+        border-width: 6px 0 0 6px;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication1:after {
+        bottom: -8px;
+        right: -8px;
+        border-width: 0 6px 6px 0;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication1:hover.explication1:before, .explication1:hover.explication1:after {
+        width: calc( 100% + 8px );
+        height: calc( 100% + 8px );
+      }
+
+    
+       .portrait2{
+        position: absolute;
+        top: 900px;
+        bottom: 50px;
+        left: 0px;
+        }
+       
+      div.detail2{
+        font-size: 4em;
+        background-color:  rgb(82, 79, 79);
+        font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 15%;
+        float:left;
+        position: relative;
+        top: -370px;
+        bottom: 50px;
+        left: -180px;
+        border-radius: 10px 10px 10px 10px; 
+        margin: 3%;  
+        padding: 3%;
+        border: 3px solid;
+        color: rgb(255, 255, 255);
+        }
+    
+ * {box-sizing: border-box;}
+    .detail2 {
+      display: block;
+      position: relative;
+       width: 400px;
+      padding: 15px;
+      
+    }
+
+    .detail2:before, .detail2:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border: 8px #000000 solid;
+      transition: all .8s;
+    }
+
+    .detail2:before {
+      top: -8px;
+      left: -8px;
+      border-width: 6px 0 0 6px;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail2:after {
+      bottom: -8px;
+      right: -8px;
+      border-width: 0 6px 6px 0;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail2:hover.detail2:before, .detail2:hover.detail2:after {
+      width: calc( 100% + 8px );
+      height: calc( 100% + 8px );
+    }
+
+    div.inspiration2{
+      font-size: 4em;
+      border: 3px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      padding:  0.8em 0.8em 0.6em;
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 25%;
+      float:left;
+      position: relative;
+      top: -550px;
+      bottom: 50px;
+      left: 1000px;
+      border-radius: 10px 10px 10px 10px; 
+      margin: 3%;  
+      padding: 3%;
+      }
+    
+      * {box-sizing: border-box;}
+      .inspiration2 {
+        display: block;
+        position: relative;
+         width: 400px;
+        padding: 15px;
+        
+      }
+    
+      .inspiration2:before, .inspiration2:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 8px #000000 solid;
+        transition: all .8s;
+      }
+    
+      .inspiration2:before {
+        top: -8px;
+        left: -8px;
+        border-width: 6px 0 0 6px;
+        border-radius: 10px 10px 10px 10px; 
+      }
+    
+      .inspiration2:after {
+        bottom: -8px;
+        right: -8px;
+        border-width: 0 6px 6px 0;
+        border-radius: 10px 10px 10px 10px; 
+      }
+    
+      .inspiration2:hover.inspiration2:before, .inspiration2:hover.inspiration2:after {
+        width: calc( 100% + 8px );
+        height: calc( 100% + 8px );
+      }
+
+    div.explication2{
+      font-size: 4em;
+      border: 3px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      padding:  0.8em 0.8em 0.6em;
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 30%;
+      float:left;
+      position: relative;
+      top: -450px;
+      bottom: 50px;
+      left: 10px;
+      border-radius: 10px 10px 10px 10px; 
+      margin: 3%;  
+      padding: 3%;
+      }
+
+      * {box-sizing: border-box;}
+      .explication2 {
+        display: block;
+        position: relative;
+         width: 400px;
+        padding: 15px;
+        
+      }
+  
+      .explication2:before, .explication2:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 8px #000000 solid;
+        transition: all .8s;
+      }
+  
+      .explication2:before {
+        top: -8px;
+        left: -8px;
+        border-width: 6px 0 0 6px;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication2:after {
+        bottom: -8px;
+        right: -8px;
+        border-width: 0 6px 6px 0;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication2:hover.explication2:before, .explication2:hover.explication2:after {
+        width: calc( 100% + 8px );
+        height: calc( 100% + 8px );
+      }
+
+
+
+      .portrait3{
+        position: absolute;
+        top: 1600px;
+        bottom: 50px;
+        left: 0px;
+        }
+
+      div.detail3{
+        font-size: 4em;
+        background-color:  rgb(82, 79, 79);
+        font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 15%;
+        float:left;
+        position: relative;
+        top: -60px;
+        bottom: 50px;
+        left: -445px;
+        border-radius: 10px 10px 10px 10px; 
+        margin: 3%;  
+        padding: 3%;
+        border: 3px solid;
+        color: rgb(255, 255, 255);
+        }
+    
+ * {box-sizing: border-box;}
+    .detail3 {
+      display: block;
+      position: relative;
+       width: 400px;
+      padding: 15px;
+      
+    }
+
+    .detail3:before, .detail3:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border: 8px #000000 solid;
+      transition: all .8s;
+    }
+
+    .detail3:before {
+      top: -8px;
+      left: -8px;
+      border-width: 6px 0 0 6px;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail3:after {
+      bottom: -8px;
+      right: -8px;
+      border-width: 0 6px 6px 0;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail3:hover.detail3:before, .detail3:hover.detail3:after {
+      width: calc( 100% + 8px );
+      height: calc( 100% + 8px );
+    }
+    div.inspiration3{
+      font-size: 4em;
+      border: 3px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 25%;
+      float:left;
+      position: relative;
+      top: -300px;
+      bottom: 50px;
+      left: 0px;
+      border-radius: 10px 10px 10px 10px; 
+      margin: 2%;  
+      padding: 2%;
+      }
+    
+      * {box-sizing: border-box;}
+      .inspiration3 {
+        display: block;
+        position: relative;
+         width: 400px;
+        padding: 15px;
+        
+      }
+    
+      .inspiration3:before, .inspiration3:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 8px #000000 solid;
+        transition: all .8s;
+      }
+    
+      .inspiration3:before {
+        top: -8px;
+        left: -8px;
+        border-width: 6px 0 0 6px;
+        border-radius: 10px 10px 10px 10px; 
+      }
+    
+      .inspiration3:after {
+        bottom: -8px;
+        right: -8px;
+        border-width: 0 6px 6px 0;
+        border-radius: 10px 10px 10px 10px; 
+      }
+    
+      .inspiration3:hover.inspiration3:before, .inspiration3:hover.inspiration3:after {
+        width: calc( 100% + 8px );
+        height: calc( 100% + 8px );
+      }
+
+
+    div.explication3{
+      font-size: 4em;
+      border: 3px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 30%;
+      float:left;
+      position: relative;
+      top: -600px;
+      bottom: 50px;
+      left: 450px;
+      border-radius: 10px 10px 10px 10px; 
+      margin: 3%;  
+      padding: 3%;
+      }
+
+      * {box-sizing: border-box;}
+      .explication3 {
+        display: block;
+        position: relative;
+         width: 400px;
+        padding: 15px;
+        
+      }
+  
+      .explication3:before, .explication3:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 8px #000000 solid;
+        transition: all .8s;
+      }
+  
+      .explication3:before {
+        top: -8px;
+        left: -8px;
+        border-width: 6px 0 0 6px;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication3:after {
+        bottom: -8px;
+        right: -8px;
+        border-width: 0 6px 6px 0;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication3:hover.explication3:before, .explication3:hover.explication3:after {
+        width: calc( 100% + 8px );
+        height: calc( 100% + 8px );
+      }
+
+
+
+      .portrait4{
+        position: absolute;
+        top: 2400px;
+        left: 0px;
+        }
+
+      div.detail4{
+        font-size: 4em;
+        background-color:  rgb(82, 79, 79);
+        font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 15%;
+        float:left;
+        position: relative;
+        top: -250px;
+        bottom: 50px;
+        left: 150px;
+        border-radius: 10px 10px 10px 10px; 
+        margin: 3%;  
+        padding: 3%;
+        border: 3px solid;
+        color: rgb(255, 255, 255);
+        }
+    
+ * {box-sizing: border-box;}
+    .detail4 {
+      display: block;
+      position: relative;
+       width: 400px;
+      padding: 15px;
+      
+    }
+
+    .detail4:before, .detail4:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border: 8px #000000 solid;
+      transition: all .8s;
+    }
+
+    .detail4:before {
+      top: -8px;
+      left: -8px;
+      border-width: 6px 0 0 6px;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail4:after {
+      bottom: -8px;
+      right: -8px;
+      border-width: 0 6px 6px 0;
+      border-radius: 10px 10px 10px 10px; 
+    }
+
+    .detail4:hover.detail4:before, .detail4:hover.detail4:after {
+      width: calc( 100% + 8px );
+      height: calc( 100% + 8px );
+    }
+
+    div.inspiration4{
+      font-size: 4em;
+      border: 3px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      padding:  0.8em 0.8em 0.6em;
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 25%;
+      float:left;
+      position: relative;
+      top: -100px;
+      bottom: 50px;
+      left: 200px;
+      border-radius: 10px 10px 10px 10px; 
+      margin: 2%;  
+      padding: 2%;
+      }
+    
+      * {box-sizing: border-box;}
+      .inspiration4 {
+        display: block;
+        position: relative;
+         width: 400px;
+        padding: 15px;
+        
+      }
+    
+      .inspiration4:before, .inspiration4:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 8px #000000 solid;
+        transition: all .8s;
+      }
+    
+      .inspiration4:before {
+        top: -8px;
+        left: -8px;
+        border-width: 6px 0 0 6px;
+        border-radius: 10px 10px 10px 10px; 
+      }
+    
+      .inspiration4:after {
+        bottom: -8px;
+        right: -8px;
+        border-width: 0 6px 6px 0;
+        border-radius: 10px 10px 10px 10px; 
+      }
+    
+      .inspiration4:hover.inspiration4:before, .inspiration4:hover.inspiration4:after {
+        width: calc( 100% + 8px );
+        height: calc( 100% + 8px );
+      }
+
+
+
+
+    div.explication4{
+      font-size: 4em;
+      border: 3px solid;
+      color: white;
+      background-color:  rgb(82, 79, 79);
+      padding:  0.8em 0.8em 0.6em;
+      font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+      text-align: center;
+      width: 30%;
+      float:left;
+      position: relative;
+      top: -300px;
+      bottom: 50px;
+      left: -290px;
+      border-radius: 10px 10px 10px 10px; 
+      margin: 3%;  
+      padding: 3%;
+      }
+
+      * {box-sizing: border-box;}
+      .explication4 {
+        display: block;
+        position: relative;
+         width: 400px;
+        padding: 15px;
+        
+      }
+  
+      .explication4:before, .explication4:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 8px #000000 solid;
+        transition: all .8s;
+      }
+  
+      .explication4:before {
+        top: -8px;
+        left: -8px;
+        border-width: 6px 0 0 6px;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication4:after {
+        bottom: -8px;
+        right: -8px;
+        border-width: 0 6px 6px 0;
+        border-radius: 10px 10px 10px 10px; 
+      }
+  
+      .explication4:hover.explication4:before, .explication4:hover.explication4:after {
+        width: calc( 100% + 8px );
+        height: calc( 100% + 8px );
+      }
+
+
+      /*menu deroulant*/
+      :root{
+        --hauteur-menu: 52px;
+        font-size: 4em;
+        
+      }
+
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Montserrat, sans-serif;
+        border-radius: 10px 10px 10px 10px; 
+        left: 0px;
+        color: white;
+        top: 15px;
+        padding-top: 1;
+      
+      }
+
+
+      nav {
+        width: 100%;
+        font-size: 18px;
+        position: sticky;
+    
+      }
+     
+      nav > ul {
+        display: flex;
+        text-align: center;
+        box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.3);
+        height: var(--hauteur-menu);
+      }
+       
+      nav ul {
+        list-style-type: none;
+      }
+      
+      nav > ul > li {
+        background-color:  rgb(82, 79, 79);
+        position: relative;
+        height: 100%;
+        flex: 1;
+      }
+
+      nav > ul > li > a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+      }
+      
+      .menu-deroulant > a:after{
+        content: '❯';
+        font-size: 15px;
+        margin-left: 7px;
+        display: inline-block;
+      }
+
+      .sous-menu {
+        margin-top: var(--hauteur-menu);
+        width: 100%;
+        text-align: left;
+        background-color:  rgb(82, 79, 79);;
+        border-radius: 2px;
+        overflow: hidden;
+        max-height: 0;
+      }
+      
+      .sous-menu > li > a {
+        height: 50px;
+        padding-left: 20px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+      }
+
+      nav > ul > li:hover > a{
+        color: #2169EC;
+      }
+
+      .sous-menu > li:hover {
+        background-color: rgb(82, 79, 79);
+      }
+      
+      .sous-menu > li:hover > a {
+        color:  rgb(82, 79, 79);
+      }
+
+      @keyframes apparitionSousMenu {
+        0% {
+          box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
+          border-top: 3px solid #2169EC;
+        }
+        30% {
+          box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+        }
+        100% {
+          max-height: 50em;
+          border-top: 3px solid #2169EC;
+          box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+        }
+      }
+
+      .menu-deroulant:hover > .sous-menu {
+        animation: apparitionSousMenu 1s forwards;
+      }
+
+     
+
+      
+      /*footer*/
+      .contenu{
+        flex: 1 0 auto;
+      }
+
+      
+      .coteDroit {
+        position: fixed;
+        right: 100%;
+        width: 100%;
+        float: right;
+      }
+
+      .contenu p{
+
+        padding: 3vw 2vw;
+        text-align: justify;
+        color:#f1f1f1
+        
+        
+      }
+
+      footer{
+        flex-shrink: 0;
+        border-top: 1px dashed #000000;
+        width: 100%;
+        background:rgb(82, 79, 79);
+        color: #333;
+      }
+
+      .contenu-footer{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 20px;
+        padding: 20px 10px 100px auto;
+      }
+
+      .bloc{
+        width: 25%;
+        margin: 0 8 40px;
+        
+      }
+
+
+      .contact h4,.media h5{
+        font-size: 20px;
+        padding-bottom: 20px;
+        
+      }
+
+      .contact p{
+        font-size: 15px;
+        padding: 1px 0;
+      }
+      
+      .nom-prenom{
+        padding: 5px 0;
+        position: relative;
+        left: -170px;
+        top: 70px;
+      }
+
+      .nom-prenom a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+      }
+      
+
+      .liste-media{
+        list-style-type: none;
+
+      }
+
+      .liste-media a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+      }
+
+      .liste-media img{
+
+        width: 40px;
+        margin: 10px 10px;
+      }
+     
+      /*Acceuil*/
+      .bienvenu{
+        text-decoration: none;
+        color: #333;
+        display: flex;
+        align-items: center;
+        font-size: 100px;
+        font-weight: bold;
+
+      }
+
+      @keyframes mon_anim{
+        0%{
+          transform: translateX(10vh);
+          opacity: 0;
+        },
+        100%{
+          transform: translateY(0px);
+          opacity : 1;}
+        }
+
+        .bienvenu{
+          animation-name: mon_anim;
+          animation-duration : 3000ms
+          anime-delay
+          animation-timing-function : ease-in-out;
+          animation-iteration-count:1
+        }
+
+        animation-delay:250ms;
+        animation-delay
+
+      
+
+      
+
+      
+     
